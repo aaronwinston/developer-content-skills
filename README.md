@@ -38,18 +38,6 @@ Do not put API keys in git. Copy [`.env.example`](.env.example) to `.env` and fi
 
 Default CMS rule, inherited from the WordPress skill: **stage as `draft`. Never publish unless a human explicitly asks.**
 
-## What this is not
-
-This is not a dump of a company’s marketing org. Excluded on purpose:
-
-- Salesforce, Gong, HubSpot MQL, ads pipeline, and other GTM/CRM skills
-- Warehouse-bound analytics (Search Console, LinkedIn, YouTube, content-performance SQL bound to one BigQuery project)
-- Founder-specific social→blog pipelines and team-page CMS tools
-- Content corpora, brand lexicons, and unpublished strategy maps
-- GitHub-internal frameworks and product messaging docs
-
-The full ForgeOS cockpit (Next.js app, scrapers, pipelines UI) stays in [aaronwinston/forgeos](https://github.com/aaronwinston/forgeos). This pack is the markdown brain: skills, playbooks, and production procedures.
-
 ## Provenance
 
 See [NOTICE.md](NOTICE.md). ForgeOS files keep the upstream MIT license. Production skills were generalized so they can run against *your* CMS, calendar, and keyword tools.
