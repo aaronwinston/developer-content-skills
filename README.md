@@ -1,8 +1,8 @@
 # Developer content agent skills
 
-A pack of agent skills for someone who runs **developer content**: the GitHub Blog, technical explainers, launch narratives, talk-to-article work, and the review bar that keeps all of it credible with engineers.
+A pack of agent skills for someone who runs **developer content**: blog development, technical explainers, launch narratives, talk-to-article work, and the review bar that keeps all of it credible with engineers.
 
-Clone it, open it in Cursor or Claude Code, and point an agent at a `SKILL.md`. Copy any folder into your own repo if you only want one capability.
+Clone it, open it in Cursor or Claude Code or Copilot app, and point an agent at a `SKILL.md`. Copy any folder into your own repo if you only want one capability.
 
 Swap brand, CMS, and credentials for GitHub’s. Example product names in some files are leftovers from the environments these skills were written in — see [ADAPTING.md](ADAPTING.md).
 
