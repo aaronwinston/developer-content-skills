@@ -2,12 +2,13 @@
 
 A shareable pack of **agent skills** for a head of developer content: editorial judgment, CMS staging, SEO research, longform pipelines, and developer-native distribution.
 
-Two sources, one repo:
+Three sources, one repo:
 
 | Tree | What it is | Original home |
 |---|---|---|
 | `skills/`, `playbooks/`, `core/`, `briefs/`, `rubrics/`, `prompts/`, `context/` | Editorial operating system: specialist writers, reviewers, and sequenced playbooks | [ForgeOS](https://github.com/aaronwinston/forgeos) (already public, MIT) |
 | `.agents/skills/`, `.agents/agents/content/` | Production skills and multi-step pipelines: WordPress drafts, SEO APIs, video→article, glossary, competitive, refresh | Extracted from a private marketing-agents repo and stripped of credentials, corpora, and warehouse queries |
+| `.agents/skills/content/write-blog`, `write-in-voice`, `edit-gdoc`; `.agents/skills/design/local-excalidraw` | Two-phase blog workflow, practitioner format craft, Google Doc paragraph edits, local Excalidraw JSON | Extracted from a private content-automation repo; founder corpora and company vision omitted |
 
 Credentials, content corpora, BigQuery analytics, CRM/sales skills, and company strategy maps are **not** in this pack. Remaining product names in examples are worked examples — swap them. See [ADAPTING.md](ADAPTING.md).
 
@@ -18,11 +19,12 @@ If you only load a handful of files before a conversation, load these:
 1. [`core/DEVELOPER_FLUENCY.md`](core/DEVELOPER_FLUENCY.md) — what “sounds like a developer wrote it” actually means
 2. [`context/01_philosophy/developer-marketing-manifesto.md`](context/01_philosophy/developer-marketing-manifesto.md) — workflows, not features
 3. [`skills/foundation/dev-copywriter/SKILL.md`](skills/foundation/dev-copywriter/SKILL.md) + [`skills/foundation/dev-reviewer/SKILL.md`](skills/foundation/dev-reviewer/SKILL.md)
-4. [`.agents/skills/operational/wordpress/SKILL.md`](.agents/skills/operational/wordpress/SKILL.md) — CMS contract: **agents stage drafts, humans publish**
-5. [`skills/specialization/technical-fact-checker/SKILL.md`](skills/specialization/technical-fact-checker/SKILL.md) + [`skills/quality/claims-risk-reviewer/SKILL.md`](skills/quality/claims-risk-reviewer/SKILL.md)
-6. [`.agents/agents/content/video-article-pipeline/AGENT.md`](.agents/agents/content/video-article-pipeline/AGENT.md) — talk or demo → article
-7. [`playbooks/blog-production.md`](playbooks/blog-production.md) + [`playbooks/technical-guide.md`](playbooks/technical-guide.md)
-8. [`skills/specialization/editorial-review-agents/DEVREL-QUICK-START.md`](skills/specialization/editorial-review-agents/DEVREL-QUICK-START.md) — technical / voice / SEO review chain
+4. [`.agents/skills/content/write-blog/SKILL.md`](.agents/skills/content/write-blog/SKILL.md) — find the thread, then draft; plus [`.agents/skills/content/write-in-voice/SKILL.md`](.agents/skills/content/write-in-voice/SKILL.md) for format craft
+5. [`.agents/skills/operational/wordpress/SKILL.md`](.agents/skills/operational/wordpress/SKILL.md) — CMS contract: **agents stage drafts, humans publish**
+6. [`skills/specialization/technical-fact-checker/SKILL.md`](skills/specialization/technical-fact-checker/SKILL.md) + [`skills/quality/claims-risk-reviewer/SKILL.md`](skills/quality/claims-risk-reviewer/SKILL.md)
+7. [`.agents/agents/content/video-article-pipeline/AGENT.md`](.agents/agents/content/video-article-pipeline/AGENT.md) — talk or demo → article
+8. [`playbooks/blog-production.md`](playbooks/blog-production.md) + [`playbooks/technical-guide.md`](playbooks/technical-guide.md)
+9. [`skills/specialization/editorial-review-agents/DEVREL-QUICK-START.md`](skills/specialization/editorial-review-agents/DEVREL-QUICK-START.md) — technical / voice / SEO review chain
 
 Full inventory: [CATALOG.md](CATALOG.md).
 

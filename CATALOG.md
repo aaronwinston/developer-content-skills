@@ -74,6 +74,15 @@ The WordPress skill is the reference implementation of a safe CMS connector.
 | `notion` | `.agents/skills/operational/notion/SKILL.md` | Read/update Notion that the integration can see |
 | `notion-sync-content-calendar` | `.agents/skills/operational/notion/sync-content-calendar/SKILL.md` | Match recent CMS publishes to calendar rows (human confirms writes) |
 
+## Drafting
+
+| Skill | Path | Use for |
+|---|---|---|
+| `write-blog` | `.agents/skills/content/write-blog/SKILL.md` | Two-phase longform: find the thread, then draft |
+| `write-in-voice` | `.agents/skills/content/write-in-voice/SKILL.md` | Practitioner LinkedIn / X / blog format craft and anti-sales-pattern rules |
+| `edit-gdoc` | `.agents/skills/content/edit-gdoc/SKILL.md` | Paragraph-index edits on an existing Google Doc |
+| `local-excalidraw` | `.agents/skills/design/local-excalidraw/SKILL.md` | Local `.excalidraw` JSON from a post or outline (no API) |
+
 ## SEO and content strategy
 
 | Skill | Path | Use for |
@@ -99,17 +108,19 @@ Each pipeline is an `AGENT.md` plus numbered step skills. Run the agent end-to-e
 | Buyer’s guide | `.agents/agents/content/buyers-guide/AGENT.md` | Longform Markdown + Doc handoff |
 | Competitive / alternatives | `.agents/agents/content/competitive/AGENT.md` | Alternatives article from a live matrix row |
 
-Shared delivery: `.agents/skills/content/markdown-to-google-doc/SKILL.md`, `.agents/skills/operational/google-workspace/SKILL.md`.
+Shared delivery: `.agents/skills/content/markdown-to-google-doc/SKILL.md` (create), `.agents/skills/content/edit-gdoc/SKILL.md` (edit), `.agents/skills/operational/google-workspace/SKILL.md`.
 
 ## Social and distribution
 
 | Skill | Path | Use for |
 |---|---|---|
+| `write-in-voice` | `.agents/skills/content/write-in-voice/SKILL.md` | Practitioner social and longform (not brand-account promo) |
 | `write-social-post` | `.agents/skills/content/write-social-post/SKILL.md` | Corporate X/LinkedIn from a URL, launch, or event |
 | `typefully-draft-with-utm` | `.agents/skills/operational/typefully/draft-with-utm/SKILL.md` | Typefully draft with a tracking link |
 | `generate-utm-link` | `.agents/skills/operational/generate-utm-link/SKILL.md` | Canonical UTM taxonomy (treat the included map as an example) |
 | `youtube-transcription` | `.agents/skills/content/youtube-transcription/SKILL.md` | Local yt-dlp + Whisper when captions APIs fail |
 | `slide-maker-with-ai` | `.agents/skills/design/slide-maker-with-ai/SKILL.md` | Outline → grill-me → Claude Design or Beamer |
+| `local-excalidraw` | `.agents/skills/design/local-excalidraw/SKILL.md` | Diagram a concept as local Excalidraw JSON |
 | `hubspot-dead-links` | `.agents/skills/operational/hubspot/dead-links/SKILL.md` | Audit automated email links (report-only by default) |
 
 ## Authoring more skills

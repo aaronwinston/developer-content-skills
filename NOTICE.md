@@ -6,6 +6,14 @@ Files under `skills/`, `playbooks/`, `core/`, `briefs/`, `rubrics/`, `prompts/`,
 
 Company-specific narrative and strategy files (priority maps, unpublished content plans) and third-party internal frameworks were left out of `context/`.
 
+## Content-automation skills
+
+`write-blog`, `write-in-voice`, `edit-gdoc`, and `local-excalidraw` were extracted from internal content-automation workflows and generalized:
+
+- Founder social archives and annotated published-post corpora were omitted
+- Company worldview / product-vision blocks were replaced with "load your `core/` and `context/`"
+- Google Doc and Excalidraw helpers keep no credentials
+
 ## Production skills
 
 Files under `.agents/` and `references/content/` were extracted from internal marketing-agent workflows and generalized:
