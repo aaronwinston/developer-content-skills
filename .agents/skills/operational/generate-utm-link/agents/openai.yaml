@@ -1,0 +1,4 @@
+interface:
+  display_name: "Generate UTM Link"
+  short_description: "Build devrel UTM-tagged links"
+  default_prompt: "Use $generate-utm-link to create a devrel UTM link for this article."

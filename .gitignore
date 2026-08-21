@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+**/.env
+**/.credentials/
+**/tmp/
+!**/tmp/.gitignore
+*.pickle
+*.pyc
+__pycache__/
+node_modules/
+.DS_Store
+.agents/skills/content/semrush/data/*
+!.agents/skills/content/semrush/data/README.md
+.agents/skills/content/serp-api/serp-results/*
+!.agents/skills/content/serp-api/serp-results/.gitignore

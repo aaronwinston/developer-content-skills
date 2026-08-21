@@ -1,0 +1,12 @@
+Optional Gemini assist for step 02. Replace {TOPIC} with the parsed term. Feed short excerpts from tmp/{id}-arize-research.md if helpful.
+
+You are drafting a glossary-style “What is …?” article. Output Markdown only.
+
+Topic / keyword: {TOPIC}
+
+1. Start with exactly one `#` heading: `# What Is …?` (title case, question mark) for the term.
+2. Order: opening definition → `## Key Takeaways` (3–5 bullets) → substantive `##` / `###` sections → `## FAQ` with `###` questions.
+3. One H1 only. Normalize acronyms (API, RAG, LLM, etc.) on first use.
+4. Markdown links `[phrase](https://…)`; phrase-level anchors. Prefer https://arize.com internal URLs from the research file when relevant.
+5. Any numeric statistic must sit inside a link to a citable source; otherwise omit the number or go qualitative.
+6. No preamble; no wrapper code fences around the whole doc.

@@ -1,0 +1,35 @@
+Compare these two versions of the **same blog post** (title, meta description, and body HTML). Produce a concise Markdown bullet list summarizing what changed.
+
+ORIGINAL TITLE:
+<<<ORIGINAL_TITLE>>>
+
+UPDATED TITLE:
+<<<UPDATED_TITLE>>>
+
+ORIGINAL META DESCRIPTION:
+<<<ORIGINAL_DESCRIPTION>>>
+
+UPDATED META DESCRIPTION:
+<<<UPDATED_DESCRIPTION>>>
+
+ORIGINAL HTML (body):
+<<<ORIGINAL_HTML>>>
+
+ENHANCED HTML (body):
+<<<ENHANCED_HTML>>>
+
+Output rules:
+
+- Markdown bullets only (`- …`). No headings, no commentary, no code fences.
+- Be specific and re-runnable — each bullet should cite verbatim strings, URLs, or anchor text where applicable.
+- If a value (title, description) is unchanged, do NOT include a bullet for it.
+
+Cover, in this order:
+
+1. Title — if `UPDATED TITLE` differs from `ORIGINAL TITLE`, add a bullet of the form: `- Title: updated "{original}" → "{updated}"`.
+2. Meta description — if `UPDATED META DESCRIPTION` differs from `ORIGINAL META DESCRIPTION`, add a bullet of the form: `- Meta description: updated "{original}" → "{updated}"`.
+3. Crosslinks added — how many new `<a href>` links were inserted in the body, and a one-line summary of where (sections, or "throughout"). If practical, list 3–5 of the added URLs with their anchor text in nested bullets.
+4. FAQ — list each new FAQ question (`<h4>` text) added by the enhancement, one bullet per question.
+5. Other notable changes — only if anything else changed (otherwise omit). Reformatting / prose edits in the body should NOT have happened; if you see any, call them out so a reviewer can catch the regression.
+
+Keep the whole list under ~12 bullets. Plain text only; do not include explanations outside the bullets.

@@ -1,0 +1,135 @@
+{
+  "skills": [
+    {
+      "name": "content-ops-manager",
+      "title": "content-ops-manager",
+      "path": "skills/editorial/content-ops-manager/SKILL.md"
+    },
+    {
+      "name": "copy-chief",
+      "title": "copy-chief",
+      "path": "skills/editorial/copy-chief/SKILL.md"
+    },
+    {
+      "name": "editorial-director",
+      "title": "editorial-director",
+      "path": "skills/editorial/editorial-director/SKILL.md"
+    },
+    {
+      "name": "managing-editor",
+      "title": "managing-editor",
+      "path": "skills/editorial/managing-editor/SKILL.md"
+    },
+    {
+      "name": "ai-researcher",
+      "title": "ai-researcher",
+      "path": "skills/foundation/ai-researcher/SKILL.md"
+    },
+    {
+      "name": "dev-copywriter",
+      "title": "dev-copywriter",
+      "path": "skills/foundation/dev-copywriter/SKILL.md"
+    },
+    {
+      "name": "dev-reviewer",
+      "title": "dev-reviewer",
+      "path": "skills/foundation/dev-reviewer/SKILL.md"
+    },
+    {
+      "name": "founder-x-recap",
+      "title": "founder-x-recap",
+      "path": "skills/foundation/founder-x-recap/SKILL.md"
+    },
+    {
+      "name": "claims-risk-reviewer",
+      "title": "claims-risk-reviewer",
+      "path": "skills/quality/claims-risk-reviewer/SKILL.md"
+    },
+    {
+      "name": "dev-campaign-reviewer",
+      "title": "dev-campaign-reviewer",
+      "path": "skills/quality/dev-campaign-reviewer/SKILL.md"
+    },
+    {
+      "name": "final-publish-reviewer",
+      "title": "final-publish-reviewer",
+      "path": "skills/quality/final-publish-reviewer/SKILL.md"
+    },
+    {
+      "name": "narrative-consistency-reviewer",
+      "title": "narrative-consistency-reviewer",
+      "path": "skills/quality/narrative-consistency-reviewer/SKILL.md"
+    },
+    {
+      "name": "analyst-relations-writer",
+      "title": "analyst-relations-writer",
+      "path": "skills/specialization/analyst-relations-writer/SKILL.md"
+    },
+    {
+      "name": "competitive-intelligence",
+      "title": "competitive-intelligence",
+      "path": "skills/specialization/competitive-intelligence/SKILL.md"
+    },
+    {
+      "name": "content-repurposer",
+      "title": "content-repurposer",
+      "path": "skills/specialization/content-repurposer/SKILL.md"
+    },
+    {
+      "name": "customer-story-producer",
+      "title": "customer-story-producer",
+      "path": "skills/specialization/customer-story-producer/SKILL.md"
+    },
+    {
+      "name": "dev-ad-writer",
+      "title": "dev-ad-writer",
+      "path": "skills/specialization/dev-ad-writer/SKILL.md"
+    },
+    {
+      "name": "executive-comms-writer",
+      "title": "executive-comms-writer",
+      "path": "skills/specialization/executive-comms-writer/SKILL.md"
+    },
+    {
+      "name": "launch-comms-writer",
+      "title": "launch-comms-writer",
+      "path": "skills/specialization/launch-comms-writer/SKILL.md"
+    },
+    {
+      "name": "lifecycle-email-writer",
+      "title": "lifecycle-email-writer",
+      "path": "skills/specialization/lifecycle-email-writer/SKILL.md"
+    },
+    {
+      "name": "pmm-lead",
+      "title": "pmm-lead",
+      "path": "skills/specialization/pmm-lead/SKILL.md"
+    },
+    {
+      "name": "seo-strategist",
+      "title": "seo-strategist",
+      "path": "skills/specialization/seo-strategist/SKILL.md"
+    },
+    {
+      "name": "social-editor",
+      "title": "social-editor",
+      "path": "skills/specialization/social-editor/SKILL.md"
+    },
+    {
+      "name": "technical-fact-checker",
+      "title": "technical-fact-checker",
+      "path": "skills/specialization/technical-fact-checker/SKILL.md"
+    },
+    {
+      "name": "workflow-extractor",
+      "title": "workflow-extractor",
+      "path": "skills/specialization/workflow-extractor/SKILL.md"
+    },
+    {
+      "name": "x-to-wordpress-scraper",
+      "title": "x-to-wordpress-scraper",
+      "path": "skills/specialization/x-to-wordpress-scraper/SKILL.md"
+    }
+  ],
+  "count": 26
+}

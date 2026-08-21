@@ -1,0 +1,14 @@
+{
+  "database_id": "YOUR_NOTION_DATABASE_ID",
+  "database_aliases": ["Content calendar"],
+  "notion_url": "https://www.notion.so/YOUR_NOTION_DATABASE_ID",
+  "status_property": "Status",
+  "url_property": "Post URL",
+  "published_status_value": null,
+  "title_match_threshold": 0.88,
+  "default_review_days": 30,
+  "wordpress_post_types": [
+    "posts",
+    "pages"
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Typefully Draft With UTM"
+  short_description: "Create Typefully drafts with UTM links"
+  default_prompt: "Use $typefully-draft-with-utm to create a Typefully draft with a devrel UTM link."

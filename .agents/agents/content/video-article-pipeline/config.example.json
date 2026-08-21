@@ -1,0 +1,7 @@
+{
+  "google_drive": {
+    "parents_folder_id": "REPLACE_WITH_ARIZE_DRIVE_FOLDER_ID"
+  },
+  "model": null,
+  "comment": "Copy to local gitignored config.json beside this folder. parents_folder_id overrides workflow_specific.* in a gitignored credentials file (see 01-scope-config)."
+}

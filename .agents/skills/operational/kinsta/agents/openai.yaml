@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kinsta"
+  short_description: "Work with Kinsta hosting via the REST API."
+  default_prompt: "Use the Kinsta API to inspect sites, environments, domains, DNS records, cache operations, backups, logs, and account metadata."
